@@ -3,43 +3,44 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="  #606a62  ">
     <LinearLayout
-        android:layout_width="402dp"
-        android:layout_height="238dp"
+        android:layout_width="405dp"
+        android:layout_height="619dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="29dp">
 
         <Button
             android:id="@+id/buttonSuma"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:backgroundTint= " #b7e659 "
             android:text="Suma" />
 
         <Button
             android:id="@+id/buttonResta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="99dp" android:backgroundTint= " #86d257  "
             android:text="Resta" />
 
         <Button
             android:id="@+id/buttonMultiplicacion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="99dp" android:backgroundTint= "  #57b44f   "
             android:text="Multiplicación" />
 
         <Button
             android:id="@+id/buttonDivision"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="99dp" android:backgroundTint= "  #5b9973   "
             android:text="División" />
 
         <Button
             android:id="@+id/buttoncmaft"
-            android:layout_width="199dp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="99dp" android:backgroundTint= "  #559d88   "
             android:text="FT A CM" />
 
     </LinearLayout>
