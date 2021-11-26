@@ -3,39 +3,45 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SUMA"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="90dp" />
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="238dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="29dp">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RESTA"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="166dp" />
+        <Button
+            android:id="@+id/buttonSuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suma" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MULTIPLICACIÓN"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="249dp" />
+        <Button
+            android:id="@+id/buttonResta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resta" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DIVISIÓN"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="342dp" />
+        <Button
+            android:id="@+id/buttonMultiplicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiplicación" />
+
+        <Button
+            android:id="@+id/buttonDivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="División" />
+
+        <Button
+            android:id="@+id/buttoncmaft"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:text="FT A CM" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

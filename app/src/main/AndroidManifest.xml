@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HolaMundoAndroid">
         <activity
+            android:name=".DivisionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MultiplicacionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RestaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SumaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FtaCmActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
